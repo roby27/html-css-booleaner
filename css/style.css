@@ -1,0 +1,67 @@
+header {
+    background-image: url('../img/pattern.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #98cbee;
+    margin: 0;
+    height: 120px;
+}
+
+.logo {
+    margin-left: 10%;
+    margin-top: 35px;
+    height: 50px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+article > h1 {
+    margin-bottom: 5px;
+}
+
+.meta {
+    color: grey;
+    line-height: 5px;
+}
+
+.autore {
+    font-size: small;
+}
+
+.autore > strong {
+    color: blue;
+}
+
+.data {
+    font-size: x-small;
+}
+
+.caption {
+    color: grey;
+    font-size: x-small;
+    font-style: italic;
+}
+
+article table {
+    width: 100%;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+td {
+    max-width: 40px;
+}
+
+td.lungo {
+    max-width: 90px;
+}
+
+tr.alternativo {
+    background-color: lightgray;
+}
